@@ -1,0 +1,5 @@
+services:
+  Berecont\ContaoSpacingBundle\Listener\HooksListener:
+    public: true
+    tags:
+      - { name: contao.hook, hook: parseTemplate, method: __invoke, priority: 0 }
