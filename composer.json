@@ -30,5 +30,6 @@
     },
     "extra": {
         "contao-manager-plugin": "Berecont\\ContaoSpacingBundle\\ContaoManager\\Plugin"
-    }
+    },
+    "version": "1.0.0"
 }
